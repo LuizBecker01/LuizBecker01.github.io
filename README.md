@@ -2,6 +2,8 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=6034b2&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+My+name+is+Luiz+Becker;I+study+analysis+and+systems+development+at+IENH;Be+Welcome!+:%29)](https://git.io/typing-svg) 
 
+
+
 <div align="center">
   <h3>🔗 Conecte-se comigo</h3>
   <a href="https://www.linkedin.com/in/luizbecker08/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
