@@ -1,11 +1,26 @@
-body {
-    font-family: Arial, sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section.container{
+    height: 100vh;
+    background: linear-gradient(to bottom, #093C2D, #3B6654, #63A593);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.container .interace{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
+    height: 100%;
 }
+
 .chat-box {
     background: white;
     padding: 20px;
