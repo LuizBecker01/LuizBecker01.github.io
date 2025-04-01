@@ -6,19 +6,30 @@
 }
 
 section.container{
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(to bottom, #093C2D, #3B6654, #63A593);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     color: #fff;
 }
 
-.container .interace{
+section .interace {
+    background-color: #093C2D;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100%;
+    align-items: center;;
+    height: 20rem;
+    width: 90%;
+    border-radius: 1rem;
+}
+
+.conteudo{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
 }
 
 .chat-box {
