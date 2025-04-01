@@ -1,53 +1,34 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
 }
-
-section.container{
-    min-height: 100vh;
-    background: linear-gradient(to bottom, #093C2D, #3B6654, #63A593);
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    color: #fff;
+.bg-gradient-to-br {
+    background-image: linear-gradient(to bottom right, #0f172a, #1e293b); 
 }
-
-section .interace {
-    background-color: #093C2D;
-    display: flex;
-    justify-content: center;
-    align-items: center;;
-    height: 20rem;
-    width: 90%;
-    border-radius: 1rem;
+.btn-primary {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
-
-.conteudo{
-    gap: 1rem;
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    text-align: center;
+.btn-primary:hover {
+    background-color: #45a049; /* Verde mais escuro */
 }
-
-.chat-box {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    text-align: left;
+.text-gray-300 {
+    color: #d1d5db; /* Texto mais claro */
 }
-.message {
-    font-size: 18px;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid black;
-    display: inline-block;
-    animation: blink 0.8s infinite;
+.border-gray-700 {
+    border-color: #4b5563; /* Borda mais escura */
 }
-@keyframes blink {
-    50% { border-color: transparent; }
+.hover\:border-gray-600:hover {
+    border-color: #374151; /* Borda mais escura no hover */
+}
+.bg-gray-800 {
+    background-color: #1e293b; /* Fundo dos botões mais escuro */
+}
+.hover\:bg-gray-700:hover {
+     background-color: #334155; /* Fundo dos botões mais escuro no hover*/
 }
